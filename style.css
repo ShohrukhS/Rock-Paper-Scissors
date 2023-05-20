@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  color: white;
+}
+
+.move-icon {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.btn{
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.result{
+  margin-top: 45px;
+  padding: 3px;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.score{
+  margin-top: 50px;
+  font-size: 2rem;
+}
+
+.moves{
+  padding: 3px;
+  font-size: 2rem;
+}
+
+#update{
+  font-size: 1.5rem;
+  padding: 15px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 1s ease;
+}
+
+#update:hover{
+  transform: scale(1.1);
+}
